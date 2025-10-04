@@ -6,5 +6,3 @@ langchain-core
 cohere
 sentence-transformers
 faiss-cpu
-gspread
-oauth2client
