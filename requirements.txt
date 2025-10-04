@@ -1,4 +1,4 @@
-streamlit
+streamlit>=1.25.0
 langchain-cohere
 langchain-community
 langchain-text-splitters
@@ -6,3 +6,5 @@ langchain-core
 cohere
 sentence-transformers
 faiss-cpu
+gspread
+oauth2client
