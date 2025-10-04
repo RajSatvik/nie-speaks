@@ -7,8 +7,6 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from datetime import datetime
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import os
 
 # -------------------- Streamlit Page Config --------------------
@@ -47,24 +45,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# -------------------- Google Sheets Setup --------------------
-# Use Streamlit Secrets for credentials
-creds_dict = st.secrets["gcp_service_account"]
-scope = ["https://www.googleapis.com/auth/spreadsheets"]
-creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scopes=scope)
-gc = gspread.authorize(creds)
+# -------------------- Core Logic --------------------
+# Used st.secrets for NIE data
+DATA_CONTENT = st.secrets["college_data"]
 
-# Open your Google Sheet by name
-SHEET_NAME = "NIE Submissions"  # Make sure your sheet name matches
-sheet = gc.open(SHEET_NAME).sheet1
-
-# -------------------- FAISS Setup --------------------
-DATA_FILE = "college_data.txt"
+PENDING_FILE = "pending_updates.txt"
 
 @st.cache_resource
 def prepare_faiss():
-    with open(DATA_FILE, 'r', encoding='utf-8') as f:
-        content = f.read()
+    content = DATA_CONTENT
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,
@@ -79,15 +68,13 @@ def prepare_faiss():
 
 retriever = prepare_faiss()
 
-# -------------------- RAG Logic --------------------
 def answer_question_with_rag(user_query, faiss_retriever):
-    cohere_api_key = st.secrets["COHERE_API_KEY"]  # Stored securely
     cohere_model = ChatCohere(
         model="command-a-03-2025",
         temperature=0.9,
-        cohere_api_key=cohere_api_key
+        cohere_api_key=st.secrets["cohere_api_key"]
     )
-
+    
     rag_prompt = """
     Your name is Rythm, an AI assistant for The National Institute of Engineering (NIE), Mysuru.
 
@@ -96,13 +83,19 @@ def answer_question_with_rag(user_query, faiss_retriever):
     However, you should also be capable of handling general questions if the user asks something outside the context.
 
     --- RESPONSE RULES ---
-    1. NIE-related questions: Use only the details from the CONTEXT section.
-    2. General questions: Provide a short, accurate answer, ending with:
-       "Please try asking questions related to NIE Mysuru for more relevant assistance."
-    3. Unanswerable questions: Say:
-       "I couldn't find this information in my knowledge base. Please check the official NIE website or contact the administration for accurate details."
-    4. Comparison questions: Give factual info, then conclude:
-       "It depends on individual preferences, goals, and priorities."
+    1. **NIE-related questions:** Use only the details from the CONTEXT section.
+    2. **General questions (not related to NIE):** 
+       - Provide a short and accurate general answer.
+       - End your response with this line:
+         "Please try asking questions related to NIE Mysuru for more relevant assistance."
+    3. **Unanswerable questions (neither in context nor general knowledge):**
+       - Say:
+         "I couldn't find this information in my knowledge base. Please check the official NIE website or contact the administration for accurate details."
+    4. **Comparison-based questions (e.g., 'Which is better?', 'Who is best?', 'Should I choose X or Y?'):**
+       - Do NOT take sides or declare a winner.
+       - Instead, give factual, objective information about both or all entities being compared.
+       - Conclude with:
+         "It depends on individual preferences, goals, and priorities."
     5. Keep responses factual, clear, concise, and student-friendly.
 
     --- CONTEXT ---
@@ -130,35 +123,37 @@ def answer_question_with_rag(user_query, faiss_retriever):
 
     return rag_pipeline.invoke(user_query)
 
-# -------------------- Streamlit UI --------------------
+# -------------------- Main UI --------------------
 def main():
     with st.sidebar:
         st.markdown('<p class="sidebar-title">NIE Speaks 🤖</p>', unsafe_allow_html=True)
         st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
 
-        # About
+        # -------- About Section --------
         st.markdown("### About")
         st.markdown("""
         <div class="info-box">
-        Say hi to <strong>NIE Speaks</strong> – your AI guide for <em>The National Institute of Engineering, Mysuru!</em><br><br>
-        From courses, exams, admissions to Wi-Fi, classrooms, hostel, fests, canteen timings, it’s got you covered.<br>
+        Say hi to <strong>NIE Speaks</strong> – your all-in-one AI guide for <em>The National Institute of Engineering, Mysuru!</em><br><br>
+        This bot isn’t like the usual ChatGPT – it’s built to help you with <strong>everything about NIE</strong>.<br>
+        From <strong>courses, exams, and admissions</strong> to the everyday stuff like <strong>Wi-Fi passwords, finding classrooms, hostel do’s & don’ts, fest schedules, canteen timings, and more</strong> – it’s got you covered.<br><br>
         😉 For freshers, it’s like having a friendly insider who knows it all!
         </div>
         """, unsafe_allow_html=True)
 
-        # Tips
+        # -------- Tips Section --------
         st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
         st.markdown("### Tips for Better Results")
         st.markdown("""
         <div class="info-box">
         • Ask simple and direct questions<br>
         • One question at a time works best<br>
+        • No question is “too small” – go ahead and ask!<br>
+        • This bot is trained mainly on data from North Campus.<br>
         • Keep it NIE-related<br>
-        • This bot is trained mainly on data from North Campus
         </div>
         """, unsafe_allow_html=True)
 
-        # User Contributions
+        # -------- User Contribution Section --------
         st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
         st.markdown("### 💡 Contribute Information")
         st.markdown("""
@@ -177,11 +172,14 @@ def main():
             if len(submission_text.strip()) < 15:
                 st.error("Please provide more detailed information.")
             else:
-                timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                sheet.append_row([timestamp, name if name else "Anonymous", submission_text.strip()])
-                st.success("✅ Thank you! Your submission has been recorded.")
+                with open(PENDING_FILE, "a", encoding="utf-8") as f:
+                    f.write(f"\n\n--- Submission ---\n")
+                    f.write(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    f.write(f"Contributor: {name if name else 'Anonymous'}\n")
+                    f.write(f"Content:\n{submission_text.strip()}\n")
+                st.success("✅ Thank you! Your submission has been recorded and will be reviewed.")
 
-        # Developer Info
+        # -------- Developer Info --------
         st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
         st.markdown("""
         <div class="developer-info">
@@ -190,10 +188,11 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
-    # Main Chat Area
+    # -------- Main Chat Area --------
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown('<h1 class="main-header">NIE Speaks 🤖</h1>', unsafe_allow_html=True)
+        st.markdown('<h3 class="main-title">Your Intelligent Assistant for The National Institute of Engineering</h3>', unsafe_allow_html=True)
         st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
 
         st.markdown("### Ask Your Question")
