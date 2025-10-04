@@ -1,8 +1,13 @@
 streamlit>=1.25.0
-langchain-cohere
-langchain-community
+langchain>=0.1.0
+langchain-cohere>=0.0.6
+langchain-community>=0.0.3
 langchain-text-splitters
+huggingface-hub>=0.16.4
 langchain-core
-cohere
-sentence-transformers
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+cohere>=4.6.0
+supabase>=1.4.0
+python-dotenv>=1.0.0
 faiss-cpu
