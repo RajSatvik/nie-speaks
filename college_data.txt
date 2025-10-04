@@ -1,0 +1,347 @@
+COLLEGE NAME & LOCATION
+------------------------
+Name: The National Institute of Engineering (NIE)
+Location: Mysuru, Karnataka, India
+
+CAMPUSES
+--------
+- NIE-South Campus: Manandavadi Road, Mysuru – 570008 
+- NIE-North Campus: Hootagalli Industrial Area, Mysuru – 570018
+
+ACCREDITATION & QUALITY STANDARDS
+----------------------------------
+- Approved by AICTE (All India Council for Technical Education)
+- Autonomous status from VTU, Belagavi since 2007 
+- founded in year 1949 by S. Ramaswamy, D. V. Narasimha Rao and T. Ramarao
+- NIRF ranking of 201-250, however personally I would rank it in top 5 colleges under comedk
+
+ADMISSIONS & INTAKES
+---------------------
+- Offers 7 undergraduate programmes and ~10 postgraduate programmes. 
+- Undergraduate programmes at North Campus: Computer Science & Engineering, Information Science & Engineering, CSE (AI & ML)
+
+CONTACT INFORMATION
+-------------------
+South Campus: Manandavadi Road, Mysuru - 570008  
+Phone: +91-63669 14771  
+Email: southcampus@nie.ac.in
+North Campus: No.50 (Part), Koorgalli Village, Hootagalli Industrial Area, Mysuru - 570018  
+Phone: +91-63669 14772  
+Email: northcampus@nie.ac.in
+
+DEPARTMENT STRENGTH & STATUS
+-----------------------------
+- CSE (Computer Science & Engineering) department strength: 240 students  
+- AIML (Artificial Intelligence & Machine Learning) department strength: 120 students  
+- ISE (Information Science & Engineering) department has been discontinued (no new admissions)  
+
+ATTENDANCE & EXAM ELIGIBILITY
+------------------------------
+- Some professors **claim an 85 % criterion**, though the actual mandated threshold is 75 %  
+- In practice, some faculty may grant attendance even when a student’s attendance is below 50 % — fostering a cordial relationship with faculty can be advantageous  
+- no need to attend nss / yoga / physical education
+
+FEES & PAYMENT PORTAL
+----------------------
+- College fee payment can be made online at https://sis.nie.ac.in portal.  
+  • COMEDK students: ₹2,75,000  
+  • KCET students: ~₹1,00,000  
+  • Management quota - ma chudae 
+
+SERVICES & FEES VIA SIS PORTAL
+-------------------------------
+- Lost I-Card: ₹100  
+- Supplementary Exam Fee: ₹1,000  
+- Paper Seeing Fee: ₹300  
+- Gym Membership Fee: ₹500 per month  
+
+GYM CONTACT
+-----------
+- Gym trainer: **+91 99454 86378**  
+
+EXAMS & EVALUATION
+-------------------
+- Continuous Internal Evaluation (CIE):  
+  • CIE 1: 25 marks  
+  • CIE 2: 25 marks  
+  • Quiz 1: 10 marks (conducted on your own device)  
+  • Quiz 2: 10 marks (conducted on your own device)  
+  • Project / Presentation: 30 marks  
+
+- Semester-End Examination (SEE): 100 marks  
+
+TIPS FOR HIGH CGPA
+-------------------
+- Focus on scoring well in internal exams (CIEs, quizzes, projects) as semester-end exams are generally more difficult, and evaluation may not always be consistent.  
+- You can cheat easily in quizzes, Try to get an O grade in 1 credit courses
+- try to attend all labs as labs attendance have marks and maintain the pink book
+
+ACADEMIC PORTALS & RESOURCES
+-----------------------------
+- Moodle: Used for accessing study materials, notes, and assignments  
+  • Default password for login: *Moodle@123*  
+
+- NIE Ved: Another resource for accessing notes and learning content  
+
+- Contineo Portal: Used for checking attendance and exam results  
+
+COLLEGE TIMINGS
+----------------
+- Class hours: 9:00 AM to 4:30 PM  
+- Working days: Monday to Friday (5 days a week)  
+
+STUDENT DEMOGRAPHICS & CULTURE
+-------------------------------
+- Approximately 15% of students come from the northern parts of India  
+- The campus is inclusive, and there is no discrimination based on region or language  
+- Learning a little Kannada is advisable, as it helps in day-to-day communication and interactions outside campus  
+
+HOSTEL & TRANSPORT
+-------------------
+- Bus Service: Provided separately for boys and girls  
+- South Campus Hostel Fees: ₹25,000 per year  
+- Fees may vary if staying off-campus and using the bus service  
+- For more details regarding hostel or bus service, contact Sandeep Sir: +91 98869 75342  
+
+# Hostel - South Campus
+
+## Boys Hostel
+Buildings: BLOCK - A, BLOCK - B
+Total Accommodation: More than 600 students
+Room Type: Triple Sharing
+Annual Fee: ₹1,06,000
+Security Money: ₹10,000
+Hostel Manager: Mr. Mahender
+Contact: +91 9886681489
+Payment Portal: https://sis.nie.ac.in/Login.aspx
+
+## Girls Hostel
+Buildings: YUVIKA, YASHVIKA
+Room Type: Triple Sharing and Double Sharing
+Annual Fee: ₹1,06,000
+Security Money: ₹10,000
+
+# Hostel - North Campus
+
+## Boys Hostel
+Buildings: BLOCK - A
+Room Availability: Very low probability of getting a room
+Security Money: ₹10,000
+
+## Girls Hostel
+Buildings: 1 (Girls Hostel)
+Total Capacity (North + South Girls Hostels): Around 310
+Annual Fee: ₹1,06,000
+Security Money: ₹10,000
+
+# Hostel Amenities (All Hostels)
+- 24×7 WiFi facilities  
+- Hot water available
+
+# Hostel Review - South Campus
+
+Demerits:
+- Facilities are not well maintained.
+- Frequent water shortage problems.
+- Seniors often force juniors to contribute money for functions.
+- WiFi often does not work properly.
+
+CLUBS & STUDENT ACTIVITIES
+---------------------------
+Major clubs at NIE North Campus:
+- NISB (NIE IEEE Student Branch)  
+- ISSA NIE Student Chapter  
+- Onyx E-Cell  
+- Byte Club (previously GDSC)  
+- OWASP NIE Student Chapter  
+- Anveshan  
+- Avnaya NIE IUCEE student chapter
+
+Tips for Freshers:
+- It is recommended to join as many events as possible in these clubs  
+- Clubs are the best place to socialize, learn, and connect with seniors  
+
+Best kissing spot in nie = badmoshi nhi mittar
+
+# Sports Facilities
+
+Indoor Facilities:
+    - Name: Diamond Jubilee Indoor Sports Complex
+      Details: A large arena housing indoor sports.
+    - Name: Badminton Courts
+      Details: Available for play.
+    - Name: Fitness Center/Gym
+      Details: Equipped for weight lifting and other training.
+    - Name: Basketball Court
+      Details: Located in the indoor complex.
+    - Name: Chess
+      Details: Facilities available for playing chess.
+
+Campus Fields:
+    - South Campus: Sports field available for playing cricket and football.
+    - North Campus: No playground available due to under-construction extension of the institute.
+
+Achievements:
+    - Sports teams consistently rank among top ten in VTU inter-college competitions.
+
+# North Campus Details
+
+Description:
+- Two buildings: one for lecture halls, one for labs and faculty offices.
+- Covers 25 acres of land with various facilities.
+- One separate building for the library.
+
+Sports & Recreation:
+- Features a large number of sports facilities.
+
+Student Amenities:
+- Cafeterias and food courts
+- Gym
+- Health centre
+
+Others:
+- Students residing in the South Hostel can have lunch at the North Campus mess.
+- Other students may pay ₹60 to obtain their food there by Spices & Chef
+
+PLACEMENT & CGPA CRITERIA
+--------------------------
+- It is highly recommended to score a high CGPA from the first year itself, as it is comparatively easier to build a strong foundation early on.  
+- Over the last couple of years, the number of seats for placements has increased significantly.  
+- A handful of high-paying companies now require a minimum CGPA of 8.5 or above.  
+- To stay on the safe side, maintaining a strong CGPA throughout the course is advisable. 
+- tough to score cgpa in ISE branch 
+
+# Scholarship
+
+Students can avail scholarships from the state government, central government, and the institute itself.
+
+## Key Scholarships
+
+### State Scholarship Portal (ePass, Vidyasiri)
+- For SC/ST/OBC/Minority students enrolled through CET exams.
+- Covers tuition fees based on merit and family income.
+- Links to apply:
+  1. Student Scholarship Portal (SSP) Karnataka: https://ssp.postmatric.karnataka.gov.in/
+  2. Karnataka ePass Official Website (KarePass): https://karepass.cgg.gov.in/
+
+### AICTE Scholarships
+- Pragati for girls & Saksham for differently-abled students.
+- Links to apply:
+  1. National Scholarship Portal (NSP): https://scholarships.gov.in/
+  2. AICTE Pragati-Saksham Portal: http://www.aicte-pragati-saksham-gov.in/
+
+### Institute Endowments & Awards
+1. Gowramma & B.N. Subba Rao Memorial: For underprivileged students not covered by other scholarships. Apply via SDSC office.
+2. Late Sri Ramanuja Iyengar Award: Merit-based award for first-year B.E. topper.
+3. Venkubai Endowment for Athletic Excellence: Top 3 students per semester receive academic excellence scholarships based on semester exam results.
+
+### PMSSS (Prime Minister’s Special Scholarship Scheme)
+- Purpose: Financial support to students from Jammu & Kashmir and Ladakh to pursue undergraduate studies outside their UTs.
+- Includes a Maintenance Allowance of ₹1,00,000 per annum.
+- Link to apply: https://www.aicte-jk-scholarship-gov.in/
+
+PLACEMENTS (NORTH CAMPUS)
+--------------------------
+The average package is around ₹10 LPA. Companies start visiting from the 5th semester and continue till the 8th semester through both on-campus and off-campus (pool) drives. Around 100 companies visit each year offering roles such as Software Development Engineer (SDE), AI/ML Engineer, Analyst, and positions in R&D departments.  
+Some high-paying companies like JPMorgan Chase (JPMC), Lowe’s India, Hewlett Packard Enterprise (HPE), and New Relic require a minimum CGPA of 8.5 or higher for eligibility. Maintaining a strong academic record from the first year is highly recommended to stay competitive.  
+highest package aroung 48lpa
+
+ANNUAL FEST
+------------
+- Name: techNIEks  
+- Timing: Generally held in May  
+- Events include: DJ Night, Masquerade Party, Dance On, CodeIgnite, Fashion Show, and many more  
+- Notable Guests: Sunidhi Ganesh, Rahul Dit-O  
+- Highlights: Mix of technical and cultural events, excellent opportunity for socializing and showcasing talent  
+- visit there instagram page for more Information
+
+CSE ADMISSIONS
+--------------
+- The Computer Science & Engineering (CSE) branch at NIE, Mysuru, typically admits students with a **COMEDK rank of around 10,000–15,000**.  
+- Admission is also through KCET and management quota, with fees varying accordingly.  
+
+HOLIDAYS & SEMESTER BREAKS
+---------------------------
+- College provides a break of **around 1–2 months** after each semester.  
+- Festival holidays are limited; for example, there is **no holiday for occasions like Holi**.  
+
+LANGUAGE & COMMUNICATION
+------------------------
+- Language barrier is generally not an issue as professors teach primarily in **English**.  
+- Students are encouraged to learn **basic day-to-day Kannada** for better interaction with non-teaching staff and local residents.  
+
+SUBJECTS BY SEMESTER
+---------------------
+
+1st Year (Semester 1 & 2):
+- Mathematics I & II  
+- Physics I & II  
+- Engineering Chemistry  
+- Basic Electrical Engineering  
+- Programming in C  
+- Engineering Graphics  
+- Environmental Science  
+- Constitution of India  
+
+2nd Year (Semester 3 & 4):
+- Data Structures  
+- Discrete Mathematics  
+- Digital Logic Design  
+- Computer Organization  
+- Object-Oriented Programming (Java)  
+- Database Management Systems  
+- Computer Graphics  
+- Software Engineering  
+
+3rd Year (Semester 5 & 6):
+- Operating Systems  
+- Computer Networks  
+- Design and Analysis of Algorithms  
+- Theory of Computation  
+- Microprocessors and Microcontrollers  
+- Software Testing  
+- Web Technologies  
+- Elective I  
+
+4th Year (Semester 7 & 8):
+- Compiler Design  
+- Artificial Intelligence  
+- Machine Learning  
+- Cloud Computing  
+- Internet of Things (IoT)  
+- Project Work  
+- Elective II & III  
+- Internship  
+
+ABOUT THE PROJECT / DEVELOPER
+-----------------------------
+I am Satvik Raj, from the ISE 2027 batch. You can find me on LinkedIn: https://www.linkedin.com/in/7vikraj/
+
+The vision for this project came from my own experiences and challenges during my first year at NIE.
+I had numerous questions about college life, academics, and placements, and finding clear answers was often challenging. 
+I created this resource to provide students with accurate, organized information, making it easier for them to navigate their time at NIE.
+
+TIPS FOR FRESHERS
+------------------
+- Mysuru is a beautiful city; take time to explore it.  
+- Maintain a CGPA above 8.5 to stay competitive.  
+- Bunk classes 
+- Interact and build connections with seniors.  
+- Practice either DSA (Data Structures & Algorithms) or development, depending on your interest.  
+- Dont fall in love with a girl who just wants friendship
+- Dont get trapped in fake internships swamp like codesoft and all
+
+Beautiful or Hot or Sexy teachers/maam/madam/sir/proffessor - I would have told you but then the administration would f me up
+
+CODING CULTURE
+--------------
+- Keep checking your college email regularly for hackathon and coding event announcements. 
+- have a good peer group of 5-6 guys and all good  
+- Regular coding competitions are organized by clubs such as NISB and ISSA.  
+- An annual competitive programming contest, **CodeIgnite**, is held during the college fest **Ignara**.  
+
+teachers are okay
+
+the north campus is in a remote area still there are shops to eat near it 
+
+college timings = 9:00 - 4:30 5 days a week
