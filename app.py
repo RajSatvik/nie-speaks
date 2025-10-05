@@ -73,7 +73,7 @@ def answer_question_with_rag(user_query, faiss_retriever):
     )
     
     rag_prompt = """
-    Your name is Rythm, an AI assistant for The National Institute of Engineering (NIE), Mysuru.
+    Your name is Yamika, an AI assistant for The National Institute of Engineering (NIE), Mysuru.
 
     You have access to a CONTEXT section that contains information about NIE Mysuru.
     Your primary goal is to assist users with NIE-related queries.
@@ -210,4 +210,5 @@ def main():
 # -------------------- Run App --------------------
 if __name__ == "__main__":
     main()
+
 
