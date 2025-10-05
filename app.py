@@ -129,7 +129,7 @@ def main():
         st.markdown("""<div class="info-box">
         Say hi to <strong>NIE Speaks</strong> – your all-in-one AI guide for <em>The National Institute of Engineering, Mysuru!</em><br><br>
         This bot isn’t like the usual ChatGPT – it’s built to help you with <strong>everything about NIE</strong>.<br>
-        From <strong>courses, exams, and admissions</strong> to the everyday stuff like <strong>Wi-Fi passwords, finding classrooms, hostel do’s & don’ts, fest schedules, canteen timings, and more</strong> – it’s got you covered.<br><br>
+        From <strong>courses, exams, and admissions</strong> to the everyday stuff like <strong>Wi-Fi passwords, hostel do’s & don’ts, fests, canteen timings, and more</strong> – it’s got you covered.<br><br>
         😉 For freshers, it’s like having a friendly insider who knows it all!
         </div>""", unsafe_allow_html=True)
 
@@ -210,3 +210,4 @@ def main():
 # -------------------- Run App --------------------
 if __name__ == "__main__":
     main()
+
