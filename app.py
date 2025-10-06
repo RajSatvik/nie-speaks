@@ -24,7 +24,6 @@ st.set_page_config(
 
 # -------------------- Custom CSS --------------------
 st.markdown("""
-<meta name="google-site-verification" content="bYk4EloI6Pjl1kcqLbJoTTGsLaCzQ0FEfxddigbdeg8" />
 <style>
     .main-header { font-size: 3rem; color: #2E4057; text-align: center; margin-bottom: 2rem; font-weight: bold; }
     section[data-testid="stSidebar"] { background-color: #2E4057 !important; color: #F5F7FA !important; }
@@ -211,6 +210,7 @@ def main():
 # -------------------- Run App --------------------
 if __name__ == "__main__":
     main()
+
 
 
 
